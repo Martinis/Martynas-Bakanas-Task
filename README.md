@@ -3,6 +3,13 @@
 - Front - Vue
 - Back - Laravel
 
+## Start
+
+- DB_DATABASE @ .env
+- DB_USERNAME @ .env
+- DB_PASSWORD @ .env
+- php artisan migrate @ command line
+
 ## Addons/Packages
 
 - Hierarchical lists package for Laravel - https://github.com/lazychaser/laravel-nestedset
