@@ -1,13 +1,13 @@
 # BitDegree-Task
 
-Front - Vue
-Back - Laravel
+- Front - Vue
+- Back - Laravel
 
 ## Addons/Packages
 
-Hierarchical lists package for Laravel - https://github.com/lazychaser/laravel-nestedset
-Fonts Awesome v4.7.0 - npm install font-awesome
-Notification Styles - https://github.com/codrops/NotificationStyles
+- Hierarchical lists package for Laravel - https://github.com/lazychaser/laravel-nestedset
+- Fonts Awesome v4.7.0 - npm install font-awesome
+- Notification Styles - https://github.com/codrops/NotificationStyles
 
 ## URL
 
