@@ -1,0 +1,94 @@
+
+// Fonts
+@import url("https://fonts.googleapis.com/css?family=Raleway:300,400,600");
+
+// Variables
+@import "variables";
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+@import '~font-awesome/scss/font-awesome';
+
+.m-t-50{
+    margin-top: 50px;
+}
+
+.form-check{
+	width: 100%;
+}
+
+.form-control{
+    max-width: 250px;
+}
+
+.fa{
+    font-size: 30px;
+    position: absolute;
+    top: 17px;
+    &.fa-smile-o
+    &.thumbs-o-down
+    &.thumbs-o-up
+    {
+	    font-size: 26px;
+    	top: 20px;
+	    left: 15px;
+    }
+}
+
+.red{
+	color: red;
+}
+
+.green{
+	color: green;
+}
+
+li{
+	border-left: .25em solid gray;
+	margin-left: 10px;
+	margin-top: 5px;
+	padding-left: 10px;
+	list-style-type: none;
+    line-height: 14px;
+
+}
+
+ul{
+	padding-left: 15px;
+}
+
+ul li span{
+	position: relative;
+	cursor: pointer;
+	transition: color 200ms ease-out;
+	&:hover{
+		color: red;
+		transition: color 200ms ease-in;
+
+	}
+	&:after {
+	    content: '';
+	    display: block;
+	    width: 1em;
+	    height: 1em;
+	    position: absolute;
+	    background: salmon;
+	    border: .25em solid white;
+	    top: 2px;
+	    left: -18px;
+	}
+	
+}
+ul ul li span{
+	&:before{
+	    content: "";
+	    display: inline-block;
+	    width: 2em;
+	    height: 0;
+	    position: absolute;
+	    left: -48px;
+	    top: 7px;
+	    border-top: .25em solid gray;
+	}		
+}
