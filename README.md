@@ -1,4 +1,4 @@
-# BitDegree-Task
+# Martynas Bakanas Task
 
 - Front - Vue
 - Back - Laravel
